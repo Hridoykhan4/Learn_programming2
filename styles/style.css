@@ -386,3 +386,38 @@ font-size: 1.1rem;
   line-height: 1.6;
   letter-spacing: 0.1em;
 }
+
+/* Seventh section start */
+#seventh-section{
+  padding: 4rem 0;
+}
+
+.takeCare-parent{
+  display: flex;
+  gap: 2rem;
+  margin: 0px 200px;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.single-takeCare-img{
+  width: 100%;
+}
+
+.single-takeCare-img img{
+  width: 100%;
+}
+
+.single-takeCare h3{
+  font-size: 1.9rem;
+}
+
+.single-takeCare p{
+  margin: 1.2rem 0;
+}
+
+.single-takeCare ul{
+  list-style: inside;
+  margin: 0.7rem 0;
+}
