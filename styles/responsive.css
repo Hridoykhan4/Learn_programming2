@@ -48,6 +48,14 @@
       .smart-image img{
         width: 100%;
       }
+      #about-parent{
+        flex-direction: column;
+        margin: 30px;
+      }
+      #about-single-items-parent{
+        grid-template-columns: 1fr;
+        gap: 0.8rem;
+      }
 }
 
 
@@ -100,5 +108,12 @@
       }
       .smart-image img{
         width: 100%;
+      }
+      #about-parent{
+        flex-direction: column;
+        margin: 0px 70px;
+      } #about-single-items-parent{
+        grid-template-columns: 1fr;
+        gap: 1.3rem;
       }
 }
