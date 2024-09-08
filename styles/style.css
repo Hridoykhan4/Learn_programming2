@@ -28,15 +28,18 @@ nav{
   font-size: 1.5rem;
   font-weight: bold;
   color: white;
+
 }
 
 nav ul{
   display: flex;
+
 }
 
 nav ul li{
   list-style: none;
   margin: 0 0.5rem;
+
 }
 
 nav ul li a{
@@ -420,4 +423,57 @@ font-size: 1.1rem;
 .single-takeCare ul{
   list-style: inside;
   margin: 0.7rem 0;
+}
+
+
+/* Footer */
+footer{
+  background-color: #154360;
+  padding: 4rem 0 3rem 0;
+}
+
+#footer-parent{
+  display: flex;
+  justify-content: center;
+  margin: 0 200px;
+  gap: 4rem;
+}
+
+.single-footer{
+  flex: 1;
+  color: white;
+}
+
+.single-footer h5{
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.2rem;
+}
+
+.single-footer-two p{
+  margin: 1rem;
+}
+.single-footer-two a{
+  text-decoration: none;
+  color: white;
+}
+
+.single-footer-two i{
+  margin-right: 0.4rem;
+}
+
+
+.single-footer-three ul{
+  display: flex;
+}
+
+.single-footer-three ul li{
+  list-style: none;
+}
+
+.single-footer-three ul li a{
+  text-decoration: none;
+  color: white;
+  margin: 0 5px;
+  background-color: #0a273863;
+  padding: 0.5rem;
 }
