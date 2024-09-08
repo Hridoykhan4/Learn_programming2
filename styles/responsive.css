@@ -1,0 +1,71 @@
+/* Mobile */
+@media screen and (max-width:576px) {
+    nav ul{
+        position: fixed;
+        top: 80px;
+        background-color: #17202A;
+        height: 100vh;
+        width: 100%;
+        padding-top: 1.4rem;
+        flex-direction: column;
+        text-align: center;
+        left: -100%;
+        transition: all 0.5s all;
+      }
+      #click:checked~.menu-btn i::before{
+          content: '\f00d';
+      }
+      nav ul li{
+          margin: 50px 0;
+      }
+      nav ul li a{
+          font-size: 1.2rem;
+      }
+      nav ul li a:hover,nav ul li a:hover,nav ul li a.active{
+          background: none;
+          color: red;
+      }
+      .menu-btn{
+          display: block;
+      }
+      #click:checked ~ ul{
+          left: 0%;
+      } 
+}
+
+
+
+
+/* Medium Devices */
+@media screen and (min-width:576px) and (max-width:992px) {
+    nav ul{
+      position: fixed;
+      top: 80px;
+      background-color: #17202A;
+      height: 100vh;
+      width: 100%;
+      padding-top: 1.4rem;
+      flex-direction: column;
+      text-align: center;
+      transition: all 0.5s all;
+    }
+    #click:checked~.menu-btn i::before{
+        content:'\f00d';
+    }
+    nav ul li{
+        margin: 50px 0;
+    }
+    nav ul li a{
+        font-size: 1.2rem;
+    }
+    nav ul li a:hover,nav ul li a:hover,nav ul li a.active{
+        background: none;
+        color: red;
+    }
+    .menu-btn{
+        display: block;
+    }
+    #click:checked ~ ul{
+        left: 0%;
+    }
+}
