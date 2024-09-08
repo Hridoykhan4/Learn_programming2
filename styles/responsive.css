@@ -58,7 +58,10 @@
       }#advice-parent{
         flex-direction: column;
         margin: 0px 30px;
-      }
+      }form{
+        max-width: 90%;
+        padding: 1.4rem 2rem;
+    }
 }
 
 
@@ -122,5 +125,8 @@
       #advice-parent{
         flex-direction: column;
         margin: 0px 70px;
-      }
+      }form{
+        max-width: 90%;
+        padding: 2.6rem 3rem;
+    }
 }
