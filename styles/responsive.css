@@ -36,6 +36,18 @@
         gap: 0.9rem;
         width: 100%;
       }
+      #smart-parent{
+        margin: 0px 30px;
+       flex-direction: column;
+       text-align: center;
+      }
+      .smart-text{
+        width: 100%;
+        padding: 20px;
+      }
+      .smart-image img{
+        width: 100%;
+      }
 }
 
 
@@ -77,5 +89,16 @@
         grid-template-columns: repeat(2, 1fr);
         width: 100%;
         gap: 1.2rem;
-    }
+    } #smart-parent{
+        margin: 0px 30px;
+       flex-direction: column;
+       text-align: center;
+      }
+      .smart-text{
+        width: 100%;
+        padding: 20px;
+      }
+      .smart-image img{
+        width: 100%;
+      }
 }

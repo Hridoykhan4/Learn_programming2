@@ -115,3 +115,45 @@ header{
   letter-spacing: 0.2em;
   font-size: 1.5rem;
 }
+
+/* Section section start */
+
+#second-section{
+  background-color: #154360;
+  padding: 5rem 0;
+}
+
+#smart-parent{
+  margin: 0 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.smart-text{
+  color: white;
+}
+
+.smart-text h2{
+  margin: 1.2rem 0;
+  font-size: 1.4rem;
+}
+
+.smart-text a{
+  text-decoration: none;
+  font-size: 1.3rem;
+  background-color: bisque;
+  color: black;
+  padding: 0.9rem 1.8rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+  margin-top: 2.4rem;
+}
+
+.smart-title{
+  text-align: center;
+  color: yellow;
+  font-size: 2.2rem;
+  letter-spacing: 0.1em;
+  margin-bottom: 1.7rem;
+}
