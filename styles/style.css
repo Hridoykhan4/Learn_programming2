@@ -341,3 +341,48 @@ font-size: 1.1rem;
 .submit:hover{
   background-color: #16213e;
 }
+
+
+/* Match Project start */
+
+.sixth-section{
+  background-color: #07254F;
+  color: white;
+  padding: 4rem 0;
+}
+
+#match-parent{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-left: 200px;
+  margin-right: 200px;
+  gap: 2.7rem;
+}
+
+.single-match{
+  border: 4px solid #26528F;
+  padding: 1.2rem;
+}
+
+.single-match i{
+  font-size: 2.3rem;
+  padding: 0px 1rem 0.8rem 1rem;
+}
+
+.single-match h5{
+  margin-bottom: 0.9rem;
+}
+
+.single-match p{
+  color: #6D809C;
+  font-size: 0.9rem;
+}
+
+.single-match:nth-child(2){
+  border: 4px solid white;
+}
+
+.first-single-match {
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+}
