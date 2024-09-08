@@ -55,6 +55,9 @@
       #about-single-items-parent{
         grid-template-columns: 1fr;
         gap: 0.8rem;
+      }#advice-parent{
+        flex-direction: column;
+        margin: 0px 30px;
       }
 }
 
@@ -115,5 +118,9 @@
       } #about-single-items-parent{
         grid-template-columns: 1fr;
         gap: 1.3rem;
+      }
+      #advice-parent{
+        flex-direction: column;
+        margin: 0px 70px;
       }
 }

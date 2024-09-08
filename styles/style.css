@@ -216,3 +216,63 @@ header{
   font-size: 1.2rem;
   padding: 0.9rem 0px 1rem 0px;
 }
+
+/* Fourth section start */
+
+#fourth-section{
+  background-color: #154360;
+  padding: 5rem 0;
+  color: white;
+}
+
+#advice-parent{
+  display: flex;
+  margin: 0 200px;
+  gap: 3rem;
+}
+
+.advice-img-box img{
+  width: 100%;
+}
+
+.single-advice p{
+  margin: 1.2rem 0;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.single-advice h3{
+  font-size: 1.4rem;
+  border-bottom: 2px solid red;
+  padding-bottom: 1.2rem;
+}
+
+.single-advice h4{
+  font-size: 1.4rem;
+  margin-top: 0.9rem;
+}
+
+.single-advice a{
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  padding: 0.9rem 1.8rem;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  display: inline-block;
+  margin-top: 1.2rem;
+}
+
+.advice-icon{
+  text-align: center;
+}
+
+.advice-icon a{
+  margin: 0 0.7rem;
+  border: 1px solid black;
+  transition: 0.4s;
+}
+
+.single-advice a:hover{
+  background-color: wheat;
+}
