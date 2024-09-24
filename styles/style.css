@@ -98,7 +98,7 @@ header {
 }
 
 .single-service i {
-  font-size: 2.3rem;
+  font-size: 3rem;
 }
 
 .single-service h2 {
@@ -118,7 +118,7 @@ header {
 
 #second-section {
   background-color: #154360;
-  padding: 5rem 0;
+  padding: 4rem 0;
 }
 
 #smart-parent {
@@ -245,10 +245,7 @@ header {
   padding-bottom: 1.2rem;
 }
 
-.single-advice h4 {
-  font-size: 1.4rem;
-  margin-top: 0.9rem;
-}
+
 
 .single-advice a {
   text-decoration: none;
@@ -259,11 +256,9 @@ header {
   font-size: 1.2rem;
   display: inline-block;
   margin-top: 1.2rem;
+  transition: 0.5e;
 }
 
-.advice-icon {
-  text-align: center;
-}
 
 .advice-icon a {
   margin: 0 0.7rem;
@@ -287,7 +282,7 @@ header {
 
 form {
   background-color: #2e357a;
-  max-width: 50%;
+  max-width: 60%;
   margin: 0 auto;
   padding: 3.2rem 3.5rem;
   border: 6px solid #4497d3;
@@ -364,6 +359,7 @@ form p {
 
 .single-match i {
   font-size: 2.3rem;
+  color: white;
   padding: 0px 1rem 0.8rem 1rem;
 }
 
